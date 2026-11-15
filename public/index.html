@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ASTRIA — notice how you are, then do one thing</title>
+  <meta name="description" content="ASTRIA helps a person on a long mission gather health signs, see what changed, and choose a next step. No account.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!--
+    Super Intelligence: this page, its styles, and app.js were drafted with Grok in Cursor.
+    Illustrations in /images were generated in Cursor and stamped "AI-generated".
+    No space-agency logos, flags, or mission identifiers.
+  -->
+</head>
+<body>
+  <a class="skip" href="#view">Skip to today</a>
+  <header class="top">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 48 48" aria-hidden="true">
+        <rect width="48" height="48" rx="14" fill="#134e56"/>
+        <circle cx="24" cy="24" r="5.5" fill="#e0943a"/>
+        <path d="M14 16.5a12 12 0 0 1 8.2-4.2" fill="none" stroke="#d7ebe7" stroke-width="3" stroke-linecap="round"/>
+        <path d="M33.8 16.2A12 12 0 0 1 36 24" fill="none" stroke="#d7ebe7" stroke-width="3" stroke-linecap="round"/>
+        <path d="M14.2 31.5A12 12 0 0 1 12 24" fill="none" stroke="#d7ebe7" stroke-width="3" stroke-linecap="round"/>
+        <path d="M25.8 35.7a12 12 0 0 0 8.2-4.4" fill="none" stroke="#d7ebe7" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <p class="word">ASTRIA</p>
+        <p class="tag">Notice it. Name it. Do one thing.</p>
+      </div>
+    </div>
+    <label class="who">
+      <span>Your name, if you want one here</span>
+      <input id="crew-name" name="crew-name" maxlength="40" autocomplete="nickname" placeholder="Just you is fine">
+    </label>
+  </header>
+
+  <nav class="nav" aria-label="Sections">
+    <button type="button" data-view="today">Today</button>
+    <button type="button" data-view="checkin">Check-in</button>
+    <button type="button" data-view="actions">What to do</button>
+    <button type="button" data-view="about">How this was made</button>
+  </nav>
+
+  <p id="live" class="live" role="status"></p>
+  <main id="view" tabindex="-1"></main>
+
+  <footer class="foot">
+    <p>ASTRIA is a reflection aid, not a medical device. It does not diagnose. If you feel acutely unwell, treat that as the priority and get a real review.</p>
+    <p>No login. Your check-ins stay in this browser.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

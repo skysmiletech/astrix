@@ -1,0 +1,54 @@
+{
+  "retrieved": "2026-11-15",
+  "donki": {
+    "name": "NASA DONKI Solar Energetic Particle events",
+    "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+    "api": "https://api.nasa.gov/DONKI/SEP",
+    "note": "Retrieved 15 Nov 2026 from the NASA DONKI API. The window 1\u201320 May 2024 recorded these solar energetic particle events. A query for 16 Sep\u201315 Nov 2026 returned none.",
+    "events": [
+      {
+        "id": "2024-05-13T18:07:00-SEP-001",
+        "time": "2024-05-13T18:07Z",
+        "instrument": "SOHO: COSTEP 15.8-39.8 MeV",
+        "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30824/-1"
+      },
+      {
+        "id": "2024-05-13T18:07:00-SEP-002",
+        "time": "2024-05-13T18:07Z",
+        "instrument": "SOHO: COSTEP 28.2-50.1 MeV",
+        "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30825/-1"
+      },
+      {
+        "id": "2024-05-13T16:19:00-SEP-001",
+        "time": "2024-05-13T16:19Z",
+        "instrument": "MODEL: REleASE:ACE/EPAM 15.8-39.8 MeV",
+        "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30820/-1"
+      },
+      {
+        "id": "2024-05-13T14:00:00-SEP-001",
+        "time": "2024-05-13T14:00Z",
+        "instrument": "GOES-P: SEISS >10 MeV",
+        "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30817/-1"
+      }
+    ]
+  },
+  "studies": [
+    {
+      "id": "OSD-575",
+      "title": "SpaceX Inspiration4 Blood Serum Metabolic Panel and Immune/Cardiac Cytokine Arrays (Comprehensive Metabolic Panel and Multiplex)",
+      "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575",
+      "summary": "The SpaceX Inspiration4 mission was a 3-day mission with four private astronauts to low Earth orbit that occurred in September 2021. The crew collected biospecimen samples before, during, and after flight. One of these biospecimen collections included whole blood collected via venipuncture, with serum extracted from\u2026"
+    },
+    {
+      "id": "OSD-656",
+      "title": "SpaceX Inspiration4 Urine Inflammation Panel (Multiplex, NULISAseq)",
+      "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-656",
+      "summary": "The SpaceX Inspiration4 mission was a 3-day mission with four private astronauts to low Earth orbit that occurred in September 2021. The crew collected biospecimen samples before, during, and after flight. One of these biospecimen collections included urine from pre-flight and post-flight/recovery timepoints (L-92,\u2026"
+    }
+  ],
+  "hrp": {
+    "name": "NASA Human Research Program",
+    "url": "https://www.nasa.gov/hrp/",
+    "note": "The four ASTRIA cards follow HRP\u2019s long-mission risks: immune change, bone and muscle loss, cardiovascular change, and behavioral health."
+  }
+}
